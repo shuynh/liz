@@ -1681,12 +1681,14 @@ a.menu:after, .dropdown-toggle:after {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
+
 }
 .hero-unit h1 {
   margin-bottom: 0;
   font-size: 60px;
   line-height: 1;
   letter-spacing: -1px;
+  margin-left:40px;
 }
 .hero-unit p {
   font-size: 18px;
@@ -1698,6 +1700,52 @@ footer {
   padding-top: 17px;
   border-top: 1px solid #eee;
 }
+
+footer ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+}
+
+footer ul li {
+  list-style-image:none;
+  list-style-type:none;
+  margin-left:0px;
+  white-space:nowrap;
+  display:inline;
+  float:left;
+  padding-left:10px;
+  padding-right:10px
+}
+footer ul li:first-child,footer ul li.first {
+    padding-left:0
+}
+
+footer ul li:last-child {
+  padding-right:0
+}
+
+footer ul li.last {
+padding-right:0
+}
+
+
+.info {
+  display: inline;
+  float: left;
+  width: 130px;
+}
+
+.awards {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 580px;
+}
+
+
 .page-header {
   margin-bottom: 17px;
   border-bottom: 1px solid #ddd;
