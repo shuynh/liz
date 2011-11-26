@@ -181,7 +181,7 @@ textarea {
  * Basic and global styles for generating a grid system, structural layout, and page templates
  * ------------------------------------------------------------------------------------------- */
 html, body {
-  background-color: #ffffff;
+  background-color: #f4f4e6;
 }
 body {
   margin: 0;
@@ -272,13 +272,14 @@ a:hover {
   width: 160px;
 }
 .span4 {
-  width: 220px;
+  width: 280px;
 }
 .span5 {
   width: 280px;
 }
 .span6 {
   width: 340px;
+  background-color:#139AC4;
 }
 .span7 {
   width: 400px;
@@ -1222,10 +1223,12 @@ table .headerSortUp.purple, table .headerSortDown.purple {
   height: 40px;
   z-index: 10000;
   overflow: visible;
+  padding-bottom:80px;
 }
 .topbar a {
-  color: #bfbfbf;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  color: #139AC4;
+  font-size:16px;
+  letter-spacing:1px;
 }
 .topbar h3 a:hover, .topbar .brand a:hover, .topbar ul .active > a {
   background-color: #333;
@@ -1330,7 +1333,7 @@ table .headerSortUp.purple, table .headerSortDown.purple {
 .topbar div > ul, .nav {
   display: block;
   float: right;
-  margin: 0 10px 0 0;
+  margin: 90px 0 0 0;
   position: relative;
   left: 0;
 }
@@ -1675,7 +1678,7 @@ a.menu:after, .dropdown-toggle:after {
   color: #404040;
 }
 .hero-unit {
-  background-color: #f5f5f5;
+  background: url(map.png) no-repeat 0 0 ;
   margin-bottom: 30px;
   padding: 60px;
   -webkit-border-radius: 6px;
@@ -1684,24 +1687,29 @@ a.menu:after, .dropdown-toggle:after {
 
 }
 .hero-unit h1 {
+  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  color: #139ac4;
+  font-style: italic;
   margin-bottom: 0;
-  font-size: 60px;
+  font-size: 48px;
   line-height: 1;
-  letter-spacing: -1px;
-  margin-left:40px;
 }
 .hero-unit p {
   font-size: 18px;
   font-weight: 200;
   line-height: 27px;
 }
-footer {
-  margin-top: 17px;
-  padding-top: 17px;
+.footer {
+  margin-top: 60px;
+  padding-top: 27px;
   border-top: 1px solid #eee;
+  background:#e8e8d9 top left repeat-x;
+  left:0;
+  right:0;
+  position: absolute;
 }
 
-footer ul {
+.footer ul {
   float: right;
   margin: 0;
   padding: 0;
@@ -1709,7 +1717,7 @@ footer ul {
   overflow: hidden;
 }
 
-footer ul li {
+.footer ul li {
   list-style-image:none;
   list-style-type:none;
   margin-left:0px;
@@ -1719,30 +1727,32 @@ footer ul li {
   padding-left:10px;
   padding-right:10px
 }
-footer ul li:first-child,footer ul li.first {
+.footer ul li:first-child,footer ul li.first {
     padding-left:0
 }
 
-footer ul li:last-child {
+.footer ul li:last-child {
   padding-right:0
 }
 
-footer ul li.last {
+.footer ul li.last {
 padding-right:0
 }
 
 
 .info {
   display: inline;
+  font-size:20px; 
   float: left;
-  width: 130px;
+  width: 200px;
 }
 
 .awards {
   display: inline;
-  float: left;
+  float: right;
   margin-right: 0;
-  width: 580px;
+  margin-top:-75px;
+  width: 900px;
 }
 
 
