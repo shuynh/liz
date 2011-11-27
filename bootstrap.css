@@ -470,7 +470,7 @@ ol {
   list-style: decimal;
 }
 li {
-  line-height: 18px;
+  line-height: 12px;
   color: #808080;
 }
 ul.unstyled {
@@ -1678,7 +1678,7 @@ a.menu:after, .dropdown-toggle:after {
   color: #404040;
 }
 .hero-unit {
-  background: url(map.png) no-repeat 0 0 ;
+  background: url(static/map.png) no-repeat 0 0 ;
   margin-bottom: 30px;
   padding: 60px;
   -webkit-border-radius: 6px;
