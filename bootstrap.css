@@ -193,8 +193,9 @@ body {
 }
 .container {
   width: 940px;
-  margin-left: 250px;;
+  margin-left: 196px;
   margin-right: auto;
+  margin-top:10px;
   zoom: 1;
 }
 
