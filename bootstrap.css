@@ -197,6 +197,14 @@ body {
   margin-right: auto;
   zoom: 1;
 }
+
+.container_footer {
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  zoom: 1;
+}
+
 .container:before, .container:after {
   display: table;
   content: "";
