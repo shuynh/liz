@@ -470,7 +470,7 @@ ol {
   list-style: decimal;
 }
 li {
-  line-height: 12px;
+  line-height: 18px;
   color: #808080;
 }
 ul.unstyled {
@@ -1678,14 +1678,23 @@ a.menu:after, .dropdown-toggle:after {
   color: #404040;
 }
 .hero-unit {
-  background: url(static/map.png) no-repeat 0 0 ;
-  margin-bottom: 30px;
+background-image: url(static/seal.png), url(static/map.png);
+background-position:  700px 80px, left top;
+background-repeat: no-repeat;  
+margin-bottom: 30px;
   padding: 60px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
-
 }
+
+.hero-unit img {
+  float:right;
+  position:relative;
+  bottom:80px;
+  left:20px;
+}
+
 .hero-unit h1 {
   font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
   color: #139ac4;
