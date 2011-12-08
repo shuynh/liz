@@ -1688,7 +1688,7 @@ a.menu:after, .dropdown-toggle:after {
   color: #404040;
 }
 .hero-unit {
-background-image: url(/img/seal.png), url(/img/map.png);
+background-image: url(img/seal.png), url(img/map.png);
 background-position:  700px 80px, left top;
 background-repeat: no-repeat;  
 margin-bottom: 30px;
