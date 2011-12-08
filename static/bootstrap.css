@@ -411,7 +411,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: bold;
   color: #404040;
 }
 h1 small,
@@ -441,7 +440,7 @@ h3,
 h4,
 h5,
 h6 {
-  line-height: 36px;
+  line-height: 22px;
 }
 h3 {
   font-size: 18px;
@@ -460,8 +459,11 @@ h5 {
 }
 h6 {
   font-size: 13px;
-  color: #bfbfbf;
+  color: white;
+  letter-spacing:1px;
+  background-color:#de1a30;
   text-transform: uppercase;
+  padding-left:5px;
 }
 ul, ol {
   margin: 0 0 18px 25px;
@@ -2427,7 +2429,7 @@ button.btn::-moz-focus-inner, input[type=submit].btn::-moz-focus-inner {
 }
 
 /*
-my own shit
+Twitter stream
 */
 
 #twitter_update_list{
@@ -2437,8 +2439,6 @@ list-style-type: none;
 #twitter_update_list li{
 margin:2px 0px 10px 1px;
 padding:5px 0px;
-
+border-bottom: 1px solid black;
 }
-
-
 
