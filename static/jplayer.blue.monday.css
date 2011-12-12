@@ -36,11 +36,11 @@ div.jp-interface {
 }
 
 div.jp-audio div.jp-type-single div.jp-interface {
-	height:80px;
+	height:60px;
 	border-bottom:none;
 }
 div.jp-audio div.jp-type-playlist div.jp-interface {
-	height:80px;
+	height:60px;
 }
 div.jp-interface ul.jp-controls {
 	list-style-type:none;
