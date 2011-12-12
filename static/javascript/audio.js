@@ -1,4 +1,4 @@
-//binds audio files on the index.html page to their own individual buttons
+//binds audio samples to their own individual buttons
 
 $(document).ready(function() {
       
