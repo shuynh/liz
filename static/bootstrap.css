@@ -193,7 +193,7 @@ body {
 }
 .container {
   width: 940px;
-  margin-left: 196px;
+  margin-left: 170px;
   margin-right: auto;
   margin-top:10px;
   zoom: 1;
@@ -1360,12 +1360,11 @@ table .headerSortUp.purple, table .headerSortDown.purple {
   text-decoration: none;
 }
 .topbar div > ul a:hover, .nav a:hover {
-  color: #ffffff;
+  color: #4c7786;
   text-decoration: none;
 }
 .topbar div > ul .active > a, .nav .active > a {
-  background-color: #222;
-  background-color: rgba(0, 0, 0, 0.5);
+  color: #4c7786;
 }
 .topbar div > ul.secondary-nav, .nav.secondary-nav {
   float: right;
@@ -1589,6 +1588,7 @@ a.menu:after, .dropdown-toggle:after {
 .tabs > li {
   position: relative;
   top: 1px;
+  background-color: #d8d8ca;
 }
 .tabs > li > a {
   padding: 0 25px;
@@ -1606,7 +1606,7 @@ a.menu:after, .dropdown-toggle:after {
 }
 .tabs > li.active > a {
   color: #808080;
-  background-color: #ffffff;
+  background-color: #e8e8d9;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
 }
@@ -1629,7 +1629,7 @@ a.menu:after, .dropdown-toggle:after {
   border-top-color: #555;
 }
 .tab-content {
-  clear: both;
+  background-color:#e8e8d9
 }
 .pills a {
   margin: 5px 3px 5px 0;
@@ -1691,7 +1691,7 @@ a.menu:after, .dropdown-toggle:after {
 }
 .hero-unit {
 background-image: url(img/seal.png), url(img/map.png);
-background-position:  700px 80px, left top;
+background-position:  760px 80px, left top;
 background-repeat: no-repeat;  
 margin-bottom: 30px;
   padding: 60px;
@@ -1704,7 +1704,7 @@ margin-bottom: 30px;
   float:right;
   position:relative;
   bottom:80px;
-  left:20px;
+  left:68px;
 }
 
 .hero-unit h1 {
