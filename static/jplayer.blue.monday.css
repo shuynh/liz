@@ -16,9 +16,6 @@
 div.jp-audio,
 div.jp-video {
 
-	/* Edit the font-size to counteract inherited font sizing.
-	 * Eg. 1.25em = 1 / 0.8em
-	 */
 
 	font-size:1em; /* No parent CSS that can effect the size in these demos */
 
@@ -27,7 +24,7 @@ div.jp-video {
 	color: #666;
 }
 div.jp-audio {
-	width:420px;
+	width:280px;
 }
 div.jp-interface {
 	position: relative;
@@ -90,13 +87,10 @@ div.jp-interface2 ul.jp-controls a {
 	text-indent:-9999px;
 }
 
-
-
-
 a.jp-play,
 a.jp-pause {
-	width:40px;
-	height:40px;
+	width:22px;
+	height:22px;
 	z-index:1;
 }
 div.jp-audio div.jp-type-single a.jp-play,
@@ -109,17 +103,17 @@ div.jp-audio div.jp-type-playlist a.jp-pause {
 	left:48px;
 }
 a.jp-play {
-	background: url("jplayer.blue.monday.jpg") 0 0 no-repeat;
+	background: url("jplayer.buttons.png") 0 0 no-repeat;
 }
 a.jp-play:hover {
-	background: url("jplayer.blue.monday.jpg") -41px 0 no-repeat;
+	background: url("jplayer.buttons.png") -22px 0 no-repeat;
 }
 a.jp-pause {
-	background: url("jplayer.blue.monday.jpg") 0 -42px no-repeat;
+	background: url("jplayer.buttons.png") 0 -22px no-repeat;
 	display: none;
 }
 a.jp-pause:hover {
-	background: url("jplayer.blue.monday.jpg") -41px -42px no-repeat;
+	background: url("jplayer.buttons.png") -22px -22px no-repeat;
 }
 div.jp-audio div.jp-type-single a.jp-stop {
 	top:26px;
@@ -130,56 +124,45 @@ div.jp-audio div.jp-type-playlist a.jp-stop {
 	left:126px;
 }
 a.jp-stop {
-	background: url("jplayer.blue.monday.jpg") 0 -83px no-repeat;
+	background: url("jplayer.buttons.png") 0 -83px no-repeat;
 	width:28px;
 	height:28px;
 	z-index:1;
 }
 a.jp-stop:hover {
-	background: url("jplayer.blue.monday.jpg") -29px -83px no-repeat;
+	background: url("jplayer.buttons.png") -29px -83px no-repeat;
 }
-div.jp-audio div.jp-type-playlist a.jp-previous {
-	left:20px;
-	top:26px;
-}
-a.jp-next {
-	background: url("jplayer.blue.monday.jpg") 0 -141px no-repeat;
-	width:28px;
-	height:28px;
-}
-a.jp-next:hover {
-	background: url("jplayer.blue.monday.jpg") -29px -141px no-repeat;
-}
+
 div.jp-progress {
 	position: absolute;
 	overflow:hidden;
 	background-color: #ddd;
 }
 div.jp-audio div.jp-type-single div.jp-progress {
-	top:32px;
-	left:50px;
-	width:322px;
-	height:15px;
+	top:20px;
+	left:30px;
+	width:270px;
+	height:21px;
 }
 
 div.jp-audio div.jp-type-single div.jp-progress2 {
 	position:absolute;
-  top:32px;
-	left:50px;
-	width:230px;
-	height:15px;
+  top:20px;
+	left:30px;
+	width:170px;
+	height:22px;
 }
 div.jp-seek-bar {
-	background: url("jplayer.blue.monday.jpg") 0 -202px repeat-x;
+	background: url("jplayer.buttons.png") 0 -221px repeat-x;
 	width:0px;
-	/* height:15px; */
+	/* height:22px; */
 	height:100%;
 	cursor: pointer;
 }
 div.jp-play-bar {
-	background: url("jplayer.blue.monday.jpg") 0 -218px repeat-x ;
+	background: url("jplayer.buttons.png") 0 -243px repeat-x ;
 	width:0px;
-	/* height:15px; */
+	/* height:22px; */
 	height:100%;
 }
 
@@ -188,21 +171,6 @@ div.jp-seeking-bg {
 	background: url("pbar-ani.gif");
 }
 
-div.jp-current-time,
-div.jp-duration {
-	position: absolute;
-	font-size:.64em;
-	font-style:oblique;
-}
-div.jp-duration {
-	text-align: right;
-}
-div.jp-audio div.jp-type-single div.jp-current-time,
-div.jp-audio div.jp-type-single div.jp-duration {
-	top:49px;
-	left:130px;
-	width:122px;
-}
 
 div.jp-jplayer {
 	width:0px;
@@ -210,4 +178,10 @@ div.jp-jplayer {
 }
 div.jp-jplayer {
 	background-color: #000000;
+}
+
+.download {
+  display:inline;
+  float:right;
+
 }

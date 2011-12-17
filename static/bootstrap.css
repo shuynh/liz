@@ -295,6 +295,7 @@ a:hover {
 }
 .span8 {
   width: 460px;
+
 }
 .span9 {
   width: 520px;
@@ -637,8 +638,6 @@ textarea,
 select,
 .uneditable-input {
   display: inline-block;
-  width: 210px;
-  height: 18px;
   padding: 4px;
   font-size: 13px;
   line-height: 18px;
@@ -1556,7 +1555,7 @@ a.menu:after, .dropdown-toggle:after {
   display: block;
 }
 .tabs, .pills {
-  font-size:16px;
+  font-size:14px;
   margin: 0 0 20px;
   padding: 0;
   list-style: none;
@@ -1591,8 +1590,7 @@ a.menu:after, .dropdown-toggle:after {
   background-color: #d8d8ca;
 }
 .tabs > li > a {
-  padding: 0 25px;
-  margin-right: 2px;
+  padding: 0 37px;
   line-height: 36px;
   border: 1px solid transparent;
   -webkit-border-radius: 4px 4px 0 0;
@@ -1605,7 +1603,7 @@ a.menu:after, .dropdown-toggle:after {
   border-color: #eee #eee #ddd;
 }
 .tabs > li.active > a {
-  color: #808080;
+  color: #000000;
   background-color: #e8e8d9;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
@@ -1767,6 +1765,7 @@ padding-right:0
   font-size:20px; 
   float: left;
   width: 200px;
+  line-height:1.2em;
 }
 
 .awards {
@@ -1774,7 +1773,7 @@ padding-right:0
   float: right;
   margin-right: 0;
   margin-top:-75px;
-  width: 900px;
+  width: 810px;
 }
 
 .page-header {
