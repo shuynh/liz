@@ -91,5 +91,23 @@ $(document).ready(function() {
       }).bind($.jPlayer.event.play, function() { 
       $(this).jPlayer("pauseOthers");
     });
-    
+
+
+    $("#jquery_jplayer_7").jPlayer({
+      ready: function () {
+        $(this).jPlayer("setMedia", {
+          mp3: "media/demo.mp3"
+        });
+      },
+      ended: function (event) {
+        $(this);
+      },
+      cssSelectorAncestor:"#jp_interface_7",
+      supplied: "mp3"
+      }).bind($.jPlayer.event.play, function() { 
+      $(this).jPlayer("pauseOthers");
+    });
+
+
+
 });

@@ -105,16 +105,22 @@ div.jp-audio div.jp-type-playlist a.jp-pause {
 a.jp-play {
 	background: url("jplayer.buttons.png") 0 0 no-repeat;
 }
+
+
 a.jp-play:hover {
 	background: url("jplayer.buttons.png") -22px 0 no-repeat;
 }
+
+
 a.jp-pause {
 	background: url("jplayer.buttons.png") 0 -22px no-repeat;
 	display: none;
 }
+
 a.jp-pause:hover {
 	background: url("jplayer.buttons.png") -22px -22px no-repeat;
 }
+
 div.jp-audio div.jp-type-single a.jp-stop {
 	top:26px;
 	left:90px;
