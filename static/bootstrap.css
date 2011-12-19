@@ -1698,11 +1698,30 @@ margin-bottom: 30px;
   border-radius: 6px;
 }
 
+
+.hero-unit2 {
+background-image: url(img/seal.png), url(img/othermap.png);
+background-position:  760px 80px, left top;
+background-repeat: no-repeat;  
+margin-bottom: 30px;
+  padding: 60px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.hero-unit2 img {
+  float:right;
+  position:relative;
+  bottom:80px;
+  left:74px;
+}
+
 .hero-unit img {
   float:right;
   position:relative;
   bottom:80px;
-  left:68px;
+  left:74px;
 }
 
 .hero-unit h1 {
