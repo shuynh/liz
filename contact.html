@@ -106,7 +106,7 @@
        Call Liz at 123-456-7890, Email her at <a href="mailto:liz@hireliz.com">liz@hireliz.com</a>, or use the form below.<br /><br />
      <div class="clearfix">
       
-      <form name="contactformfree" method="post" action="free_process.php" onsubmit="return validate.check(this)">
+      <form name="contactformfree" method="post" action="free_process.php" onsubmit="window.open('','my_form_target', 'width=300,height=200', true); this.target='my_form_target';" > 
         <input type="text" name="Full_Name" id="Full_Name" value="Name" onclick="this.value=''" maxlength="80" style="width:370px; height:35px; font-size:14px;" ><br><br>
         <input type="text" name="Email_Address" id="Email_Address" value="Email" onclick="this.value=''" maxlength="100" style="width:370px; height:35px; font-size:14px;"><br><br>
         <input type="text" name="Telephone_Number" id="Telephone_Number" value="Phone Number" onclick="this.value=''" maxlength="100" style="width:370px; height:35px; font-size:14px;"><br><br>
