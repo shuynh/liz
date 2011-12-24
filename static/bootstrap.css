@@ -193,7 +193,7 @@ body {
 }
 .container {
   width: 940px;
-  margin-left: 170px;
+  margin-left: 160px;
   margin-right: auto;
   margin-top:10px;
   zoom: 1;
@@ -255,7 +255,8 @@ a:hover {
 }
 .row {
   zoom: 1;
-  margin-left: -20px;
+  background-color:#E8E8D9;
+  padding-top:15px;
 }
 .row:before, .row:after {
   display: table;
@@ -1343,7 +1344,7 @@ table .headerSortUp.purple, table .headerSortDown.purple {
 .topbar div > ul, .nav {
   display: block;
   float: right;
-  margin: -26px 0 0 0;
+  margin: 0 0 0 0;
   position: relative;
   left: 0;
 }
@@ -1701,7 +1702,7 @@ margin-bottom: 30px;
 
 .hero-unit2 {
 background-image: url(img/seal.png), url(img/othermap.png);
-background-position:  760px 80px, left top;
+background-position:  760px 50px, left top;
 background-repeat: no-repeat;  
 margin-bottom: 30px;
   padding: 60px;
@@ -1713,7 +1714,7 @@ margin-bottom: 30px;
 .hero-unit2 img {
   float:right;
   position:relative;
-  bottom:80px;
+  bottom:110px;
   left:74px;
 }
 
@@ -2463,5 +2464,11 @@ border-bottom: 1px solid black;
 
 
 /* audio player */
-
+.audioplayer {
+float:right;
+background-color:#139AC4;
+margin-top:40px;
+padding-left:180px;
+padding-top:5px;
+}
 

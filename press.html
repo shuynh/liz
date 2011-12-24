@@ -8,19 +8,44 @@
     <script src="static/javascript/jquery.min.js" type="text/javascript"></script>
     <script src="static/javascript/jquery.jplayer.min.js" type="text/javascript"></script>
     <script src="static/javascript/audio.js" type="text/javascript"></script>
+    <script type="text/javascript" src="static/javascript/audio-player.js"></script> 
+    <script type="text/javascript">  
+    AudioPlayer.setup("static/javascript/player.swf", {  
+        width: 80,
+        initialvolume: 100,  
+        transparentpagebg: "yes",  
+        left: "000000", 
+        rightbg: "139AC4" ,
+        rightbghover: "139AC4" ,
+        leftbg: "139AC4" ,
+        lefticon: "FFFFFF",  
+        righticon: "FFFFFF"  
+    });  
+    </script>  
   </head>
 
  <body>
     <a href="index.html"><img style="position: absolute; top: 0; left: 0; border: 0;" src="static/img/liz.png" alt="hello"></a>
     <div class="topbar">
+         <div class="container">
+          <div class="audioplayer">
+            <p id="audioplayer_1">player</p>  
+               <script type="text/javascript">  
+                 AudioPlayer.embed("audioplayer_1", {soundFile: "media/demo.mp3"});  
+               </script>  
+          </div>
+            <h5 style="float:right; font-size:13px; margin-right:-160px; margin-top:40px; color:white; padding-top: 6px;">Listen to the 10sec demo</h5>
+         </div>
+
         <div class="container" style=" margin-right:none;">
           <a class="brand" href="#"></a>
-          <ul class="nav" style="float:right;">
+          <ul class="nav" style="float:right; margin-top:10px;">
             <li><a href="services.html">SERVICES</a></li>
             <li><a href="ivr.html">IVR</a></li>
             <li class="active"><a href="press.html">PRESS + TESTIMONIALS</a></li>
             <li><a href="resources.html">RESOURCES</a></li>
             <li><a href="contact.html">CONTACT / QUOTE</a></li>
+            <li><a href="http://blog.hireliz.com" target="_blank">BLOG</a></li>
           </ul>
         </div>
     </div>
@@ -36,7 +61,7 @@
       <!-- Example row of columns -->
           
       <div class="row">
-        <div class="span9" style="width:500px; margin-right: 60px;">
+        <div class="span9" style="width:480px; margin-right: 60px;">
           <h3>PRESS</h3><br>
           <table width="87%" style="border: 0;">
   <tr>

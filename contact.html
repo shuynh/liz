@@ -14,19 +14,45 @@
         required.add('Email_Address','EMAIL','Email Address');
         required.add('Your_Message','NOT_EMPTY','Your Message')
     </script>
+   <script type="text/javascript" src="static/javascript/audio-player.js"></script> 
+      <script type="text/javascript">  
+      AudioPlayer.setup("static/javascript/player.swf", {  
+          width: 80,
+          initialvolume: 100,  
+          transparentpagebg: "yes",  
+          left: "000000", 
+          rightbg: "139AC4" ,
+          rightbghover: "139AC4" ,
+          leftbg: "139AC4" ,
+          lefticon: "FFFFFF",  
+          righticon: "FFFFFF"  
+      });  
+      </script>  
+
  </head>
 
  <body>
     <a href="index.html"><img style="position: absolute; top: 0; left: 0; border: 0;" src="static/img/liz.png" alt="hello"></a>
     <div class="topbar">
-        <div class="container" style=" margin-right:none;">
+      <div class="container">
+            <div class="audioplayer">
+              <p id="audioplayer_1">player</p>  
+                 <script type="text/javascript">  
+                   AudioPlayer.embed("audioplayer_1", {soundFile: "media/demo.mp3"});  
+                 </script>  
+            </div>
+              <h5 style="float:right; font-size:13px; margin-right:-160px; margin-top:40px; color:white; padding-top: 6px;">Listen to the 10sec demo</h5>
+           </div>
+ 
+       <div class="container" style=" margin-right:none;">
           <a class="brand" href="#"></a>
-          <ul class="nav" style="float:right;">
+          <ul class="nav" style="float:right; margin-top:10px;">
             <li><a href="services.html">SERVICES</a></li>
             <li><a href="ivr.html">IVR</a></li>
             <li><a href="press.html">PRESS + TESTIMONIALS</a></li>
             <li><a href="resources.html">RESOURCES</a></li>
             <li class="active"><a href="contact.html">CONTACT / QUOTE</a></li>
+            <li><a href="http://blog.hireliz.com" target="_blank">BLOG</a></li>
           </ul>
         </div>
     </div>
@@ -43,7 +69,7 @@
       <!-- Example row of columns -->
           
  <div class="row">
-     <div class="span8">
+     <div class="span8" style="width:450px;">
       <h3 style="margin-bottom:10px;"> Contact</h3>
         <p style="font-size:14px;"> 
 				  <script src="http://www.clocklink.com/embed.js"></script>
@@ -101,7 +127,7 @@
             <a href="Tracey@talentunlimited.com">Tracey@talentunlimited.com</a>
             </div>
    
-   <div class="span8">
+   <div class="span8" style="width:450px;">
      <h3 style="margin-bottom:10px;">Get A Quote!</h3>
        Call Liz at 123-456-7890, Email her at <a href="mailto:liz@hireliz.com">liz@hireliz.com</a>, or use the form below.<br /><br />
      <div class="clearfix">
